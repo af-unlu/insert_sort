@@ -1,6 +1,12 @@
 # insert_sort
  Insertion Sort - Java - www.patika.dev
 
+#kullanımı
+git clone https://github.com/af-unlu/insert_sort.git 
+
+
+İlk 4 adımı ekrana yazmaktadır, main fonksiyonunun içindeki son yorum satırını kaldırarak da inputun son halini görebilirsiniz.
+
 #Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 22 27 16 2 18 6 
