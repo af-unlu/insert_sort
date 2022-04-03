@@ -8,6 +8,8 @@ public class App {
             int key = array[step];
             int j = step - 1;
 
+
+
             // Compare key with each element on the left of it until an element smaller than
             // it is found.
             // For descending order, change key<array[j] to key>array[j].
@@ -18,6 +20,11 @@ public class App {
 
             // Place key at after the element just smaller than it.
             array[j + 1] = key;
+
+            if(step<=4){
+                System.out.print("\n");
+                PrintArray(array);
+            }
         }
     }
 
@@ -28,8 +35,8 @@ public class App {
     }
 
     public static void main(String[] args) throws Exception {
-        int[] input = { 80, 20, 70, 40 };
+        int[] input = {22,27,16,2,18,6};
         insertionSort(input);
-        PrintArray(input);
+        //PrintArray(input);
     }
 }
